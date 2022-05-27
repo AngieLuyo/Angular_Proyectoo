@@ -1,0 +1,29 @@
+<h1>BIENVENIDOS A LA NASA</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Parameter</th>
+            <th scope="col">Type</th>
+            <th scope="col">Default</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let cliente of clientes">
+            <th scope="row">1</th>
+            <td>{{cliente.copyright}}</td>
+            <td>{{cliente.explanation}}</td>
+            <td>{{cliente.hdurl}}</td>
+            <td>{{cliente.url}}</td>
+          
+          </tr>
+         
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
